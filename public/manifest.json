@@ -9,6 +9,9 @@
     "48": "48x48.png",
     "128": "128x128.png"
   },
+  "permissions": [
+    "storage"
+  ],
   "background": {
     "service_worker": "static/js/background.js"
   },
@@ -17,9 +20,6 @@
       "matches": ["<all_urls>"],
       "js": ["static/js/content.js"]
     }
-  ],
-  "permissions": [
-    "storage"
   ],
   "action": {
       "default_popup": "index.html" 
